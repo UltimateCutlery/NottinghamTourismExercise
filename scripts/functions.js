@@ -5,3 +5,11 @@ function openP1() {
 function openP2() {
     location.href = "Page2.html";
 }
+
+function openP3() {
+  location.href = "Page3.html";
+}
+
+function openHome() {
+  location.href = "homepage.html";
+}
