@@ -1,3 +1,11 @@
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
 function openP1() {
   location.href = "Page1.html";
 }
