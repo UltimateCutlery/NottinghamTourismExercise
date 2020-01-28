@@ -1,6 +1,9 @@
-@media screen and (min-width:375px) and (max-width:500px)  {  
 
+@media screen and (min-width:375px) and (max-width:500px) {
+    
 }
-body {
-    /* border:solid 2px red; */
-}
+h1 {background-color:#9caf88;
+  width: align-self auto;
+  border: 5px solid black;
+  padding: 10px;
+  color: white;}
