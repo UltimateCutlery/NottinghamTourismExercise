@@ -7,24 +7,28 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Visit Notts!</title>
 
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=El+Messiri&display=swap" rel="stylesheet">
     <script src="scripts/functions.js"></script>
 
 </head>
-<    <div id= "header">
+  <div id= "header">
         <img src="https://www.visit-nottinghamshire.co.uk/images/logos/logo.png" alt="visit-nottinghamshire logo">
     </div>
     <main>
-        
+            <div class="topnav" id="myTopnav">
+                <button onclick="openP1()">Top 10 Attractions</button>
+                <button onclick="openP2()">Attraction Map!</button>
+                <button onclick="openP3()">Contact Us</button>               
+                <br>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
 
-        <h3> This is the home page!</h3>
-        <button onclick="openP1()">Top 10 Attractions</button>
-        <button onclick="openP2()">Attraction Map!</button>
-        <button onclick="openP3()">Contact Us</button>               
-        <br>
-
-        <h5>Welcome to the best county in England.</h5>
+            <h1>Welcome to the best county in England.</h1>
+            <p>Your ultimate guide to Nottinghamshire</p>
 
         <body><p>Home of legendary outlaw Robin Hood, dynamic culture, rich history and sporting glory - Nottinghamshire is one of the UK's top destinations, and a warm welcome always awaits.</p>   
 
@@ -40,9 +44,15 @@
             <div class="col">
                 <img src="https://www.visit-nottinghamshire.co.uk/imageresizer/?image=%2fdbimgs%2fHome%20page%20intro%20banner%20v3.jpg&action=MediaGallery" alt="Header photo">
             </div>
-            <div class="col">
-                <img src="https://source.unsplash.com/1600x900/?gerbils" alt="Gerbils from unsplash">
-                <caption>Gerbils</caption>
+            
+                
+        <section class="img-grid">
+            <img class="img-item" src="https://source.unsplash.com/1600x900/?gerbils" alt="Gerbils from unsplash"><caption>Gerbils</caption>
+            <img class="img-item" src="https://source.unsplash.com/1600x900/?cats" alt="Cats from unsplash"><caption>Cats</caption>
+            <img class="img-item" src="https://source.unsplash.com/1600x900/?dogs" alt="Dogs from unsplash"><caption>Dogs</caption>
+        </section>
+               
+                
             </div>
         </div>
 
@@ -52,23 +62,15 @@
 
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem vitae, et ex esse dicta fuga illo eaque consequatur, nobis a iure alias ut veniam enim quia, at ducimus adipisci! Eligendi ab veniam similique doloremque qui ipsum voluptate explicabo consequatur aut expedita nam, libero eum inventore vero dolores cupiditate soluta a!</p>
 
-        <div class="row">
-            <div class="col">
-                <img src="https://source.unsplash.com/1600x900/?cats" alt="Cats from unsplash">
-            </div>
-            <div class="col">
-                <img src="https://source.unsplash.com/1600x900/?dogs" alt="Dogs from unsplash">
-            </div>
-            <div class="col">
-                <img src="https://source.unsplash.com/1600x900/?rabbits" alt="Rabbit from unsplash">
-            </div>
-        </div>
-
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quo quae ex architecto tenetur quia ea. Ad labore sequi necessitatibus tempora nisi pariatur, incidunt dignissimos quo provident esse nemo recusandae doloribus eaque ipsa vitae voluptatem veniam eligendi aperiam, autem blanditiis.</p>
 
         <br>
         </body>
     </main>
 
-    <footer>
+    <div class="footer">
+        <a class="active" href="#home">Home</a>
+        <a href="#page2">Attractions Map</a>
+        <a href="#page3">Contact Us</a>
+    </div>
         
