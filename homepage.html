@@ -4,39 +4,57 @@
 <head>
 
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- The viewport meta tag instructs the browser to use the actual device width with a scaling factor of 1 -->
+<style>
+    h1 {background-color:#9caf88;
+        width: align-self auto;
+        border: 5px solid black;
+        padding: 10px;
+        color: white;}
+</style>
 
-    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- The viewport meta tag instructs the browser to use the actual device width with a scaling factor of 1 -->
+
+<meta charset="UTF-8">
     
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Visit Notts!</title>
-
-    <link rel="stylesheet" href="styles/main.css">
-    <link href="https://fonts.googleapis.com/css?family=El+Messiri&display=swap" rel="stylesheet">
-    <script src="scripts/functions.js"></script>
+<link rel="stylesheet" href="main.css">
+<link href="https://fonts.googleapis.com/css?family=El+Messiri&display=swap" rel="stylesheet">
+<script src="scripts/functions.js"></script>
 
 </head>
+
 <body>
     <div id= "header">
+
         <img src="https://www.visit-nottinghamshire.co.uk/images/logos/logo.png" alt="visit-nottinghamshire logo">
+      
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <div class="topnav" id="myTopnav">
+            <button onclick="openP1()">Top 10 Attractions</button>
+            <button onclick="openP2()">Map of Attractions</button>
+            <button onclick="openP3()">Contact Us</button>          
+            <br>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+    
     </div>
     <main>
         
-
-        <h3> This is the home page!</h3>
+        <h1>Orang - Why you should visit Nottingham</h1>
         <button onclick="openP1()">Top 10 Attractions</button>
-        <button onclick="openP2()">Attraction Map!</button>
+        <button onclick="openP2()">Map of Attractions</button>
         <button onclick="openP3()">Contact Us</button>               
         <br>
 
-        <h5> Lorem ipsum dolor sit amet.</h5>
+        <h5>Welcome to the best county in England.</h5>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quaerat aliquam nemo a dolor, optio sit magnam earum? Nihil possimus repellat magnam laboriosam impedit hic quidem quibusdam. Id, rerum quaerat!</p>
+        <body><p>Home of legendary outlaw Robin Hood, dynamic culture, rich history and sporting glory - Nottinghamshire is one of the UK's top destinations, and a warm welcome always awaits.</p>   
 
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, fugit ullam? Doloribus velit facere placeat amet libero dolores, neque incidunt modi fugiat. Perspiciatis sapiente voluptas neque magnam suscipit? Ad officiis, tenetur eaque impedit minima deleniti nisi dolores molestiae odit perferendis. Maxime, nulla! Soluta provident eum adipisci distinctio maiores molestiae dolorum voluptas a ut, eos beatae voluptatem iure porro doloribus mollitia.</p>
-
-
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta tenetur quasi iure aspernatur deleniti officiis exercitationem culpa id veritatis, quaerat ea eos mollitia nihil minus necessitatibus qui eaque ipsum quas aliquid eveniet commodi, cumque eligendi porro! Dolor quam at consequatur?</p>
+        <p>Whether you visit Nottinghamshire for a weekend break or a day out with the kids at top attractions, you can see world class sport, amazing live performances, excellent nightlife and cutting edge art in...</p>
 
         <br>
 
@@ -48,9 +66,15 @@
             <div class="col">
                 <img src="https://www.visit-nottinghamshire.co.uk/imageresizer/?image=%2fdbimgs%2fHome%20page%20intro%20banner%20v3.jpg&action=MediaGallery" alt="Header photo">
             </div>
-            <div class="col">
-                <img src="https://source.unsplash.com/1600x900/?gerbils" alt="Gerbils from unsplash">
-                <caption>Gerbils</caption>
+            
+                
+        <section class="img-grid">
+            <img class="img-item" src="https://source.unsplash.com/1600x900/?gerbils" alt="Gerbils from unsplash"><caption>Gerbils</caption>
+            <img class="img-item" src="https://source.unsplash.com/1600x900/?cats" alt="Cats from unsplash"><caption>Cats</caption>
+            <img class="img-item" src="https://source.unsplash.com/1600x900/?dogs" alt="Dogs from unsplash"><caption>Dogs</caption>
+        </section>
+               
+                
             </div>
         </div>
 
@@ -60,22 +84,13 @@
 
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem vitae, et ex esse dicta fuga illo eaque consequatur, nobis a iure alias ut veniam enim quia, at ducimus adipisci! Eligendi ab veniam similique doloremque qui ipsum voluptate explicabo consequatur aut expedita nam, libero eum inventore vero dolores cupiditate soluta a!</p>
 
-        <div class="row">
-            <div class="col">
-                <img src="https://source.unsplash.com/1600x900/?cats" alt="Cats from unsplash">
-            </div>
-            <div class="col">
-                <img src="https://source.unsplash.com/1600x900/?dogs" alt="Dogs from unsplash">
-            </div>
-            <div class="col">
-                <img src="https://source.unsplash.com/1600x900/?rabbits" alt="Rabbit from unsplash">
-            </div>
-        </div>
-
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quo quae ex architecto tenetur quia ea. Ad labore sequi necessitatibus tempora nisi pariatur, incidunt dignissimos quo provident esse nemo recusandae doloribus eaque ipsa vitae voluptatem veniam eligendi aperiam, autem blanditiis.</p>
 
         <br>
+        </body>
     </main>
 
-    <footer>
+    <div class="footer">
+         <p>Copyright Orang 2020</p>
+    </div>
         
