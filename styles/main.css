@@ -2,6 +2,8 @@
 @media screen and (min-width:375px) and (max-width:500px) {
     
 }
+
+
 h1 {background-color:#9caf88;
   width: align-self auto;
   border: 5px solid black;
@@ -17,3 +19,4 @@ h1 {background-color:#9caf88;
   color: black;
   text-align: center;
 }
+
