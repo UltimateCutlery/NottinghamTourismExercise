@@ -20,3 +20,12 @@ h1 {background-color:#9caf88;
   text-align: center;
 }
 
+a:link {
+  color: #78be20;
+  }
+  a:visited {
+  color: #78be20;
+  }
+  a:hover {
+  color: #0e6406;
+  }
