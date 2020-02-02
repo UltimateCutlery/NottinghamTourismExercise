@@ -1,9 +1,30 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <img src="https://www.visit-nottinghamshire.co.uk/images/logos/logo.png" alt="visit-nottinghamshire logo">
-    <br>
-    <br>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- The viewport meta tag instructs the browser to use the actual device width with a scaling factor of 1 -->
+    
+    <script src="scripts/functions.js"></script>
+    <link rel="stylesheet" href="styles/main.css">
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- The viewport meta tag instructs the browser to use the actual device width with a scaling factor of 1 -->
+        
+        <script src="scripts/functions.js"></script>
+        <link rel="stylesheet" href="styles/main.css">
+    
+    </head>
+  <body>
+    <div id="header">
+      <img src="https://www.visit-nottinghamshire.co.uk/images/logos/logo.png" alt="visit-nottinghamshire logo">
+  <br><br>
+<div class="topnav" id="myTopnav">
+  <a href="homepage.html" class="active">Home</a>
+  <a href="Page1.html">Top 10 Attractions</a>
+  <a href="Page2.html">Map</a>
+  <a href="Page3.html">Contact</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+  </div>
 <style>
 h1 {background-color:#9caf88;
   width: align-self auto;
@@ -16,12 +37,7 @@ h1 {background-color:#9caf88;
 <meta name="viewport" content="width=device-width, initial-scale=1">     <!-- The viewport meta tag instructs the browser to use the actual device width with a scaling factor of 1 -->
  <script src="scripts/functions.js"></script>
 <link rel="stylesheet" href="main.css">
-
-
-<button onclick="openHome()">Home</button>
-<h1>Map of Attractions</h1>
 </head>
-<body>
 <p>Use the map below to navigate around the best Nottinghamshire attractions.</p>
 
 <iframe src="https://www.google.com/maps/d/embed?mid=1qSM2kurIC_ofYe3sKBX7F9td3JQgvLvG" width="640" height="480"></iframe>
