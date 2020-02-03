@@ -46,6 +46,8 @@ body {
 .topnav {
   overflow: hidden;
   background-color: #333;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .topnav a {
