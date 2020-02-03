@@ -105,3 +105,11 @@ a:link {
   a:hover {
   color: #0e6406;
   }
+
+  iframe{
+    display: block;
+    width: 640;
+    height: 480;
+    margin: 0 auto;
+    border: 0;
+  }
