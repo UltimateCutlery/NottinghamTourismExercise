@@ -20,10 +20,10 @@ h1 {background-color:#9caf88;
   color: black;
   text-align: center;
 }
-.h2 {
+h2 {
   font-size: 18px;
   font-weight: 400;
-  color: #9caf88be;
+  color: #78be20;
   text-align: center;
 }
 .grid-container {
@@ -46,6 +46,8 @@ body {
 .topnav {
   overflow: hidden;
   background-color: #333;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .topnav a {
