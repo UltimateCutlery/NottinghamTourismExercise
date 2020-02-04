@@ -15,6 +15,15 @@
 <link href="https://fonts.googleapis.com/css?family=El+Messiri&display=swap" rel="stylesheet">
 <script src="scripts/functions.js"></script>
 
+<style>
+#grid { 
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 2vw;
+    }
+</style>  
+
+
 </head>
 
 <body>
@@ -59,16 +68,16 @@
                        <h2>Discover Nottinghamshire</h2>
                       </div>
 
-            <div class="grid-container">
-                <div class="grid-item"><img class="img-responsive full-width; align=center;" src="https://i2-prod.nottinghampost.com/incoming/article251696.ece/ALTERNATES/s810/Wollaton-ParkJPG.jpg" alt="Wollaton Hall" width="350" height="209"></div>
-                <div class="grid-item"><img class="img-responsive full-width; align=center;" src="https://www.ntu.ac.uk/__data/assets/image/0020/542432/NOTTS_Skyline_6293.jpg" alt="Notts Map" width="350" height="209"></div>
-                <div class="grid-item"><img class="img-responsive full-width; align=center;" src="https://i2-prod.nottinghampost.com/incoming/article2835035.ece/ALTERNATES/s810/0_WhatsApp-Image-2019-05-05-at-113418jpeg.jpg" alt="Contact Us" width="350" height="209"></div>  
-                <div class="grid-item"><h3>Top Ten Attractions</h3><p>Of all the excellent things to see and do in Notts, our team have whittled it down to the top 10.</p></div>
-                <div class="grid-item"><h3>Map of Attractions</h3><p>However long you'll be in Notts, plan your trip with our handy map. See all the best attractions on your desktop or phone.</p></div>
-                <div class="grid-item"><h3>Get in touch</h3></h3><p>We'd love to hear about your favourite places to visit in Nottinghamshire. If you are a local, visitor or business, get in touch and give us the lowdown.</p></div>  
-                <div class="grid-item"><p><strong><a href="Page1.html">See the top 10</a></strong></p><br></div>
-                <div class="grid-item"><p><strong><a href="Page2.html">View the map</a></strong></p><br></div>
-                <div class="grid-item"><p><strong><a href="Page3.html">Contact Us</a></strong></p><br></div>  
+            <div class="grid-container" id="grid">
+                <div class="grid-item"><img class="img-responsive full-width; align=center;" src="https://i2-prod.nottinghampost.com/incoming/article251696.ece/ALTERNATES/s810/Wollaton-ParkJPG.jpg" alt="Wollaton Hall" width="350" height="209">
+                    <h3>Top Ten Attractions</h3><p>Of all the excellent things to see and do in Notts, our team have whittled it down to the top 10.</p>
+                <p><strong><a href="Page1.html">See the top 10</a></strong></p><br></div>
+                <div class="grid-item"><img class="img-responsive full-width; align=center;" src="https://www.ntu.ac.uk/__data/assets/image/0020/542432/NOTTS_Skyline_6293.jpg" alt="Notts Map" width="350" height="209">
+                    <h3>Map of Attractions</h3><p>However long you'll be in Notts, plan your trip with our handy map. See all the best attractions on your desktop or phone.</p>
+                <p><strong><a href="Page2.html">View the map</a></strong></p><br></div>
+                <div class="grid-item"><img class="img-responsive full-width; align=center;" src="https://i2-prod.nottinghampost.com/incoming/article2835035.ece/ALTERNATES/s810/0_WhatsApp-Image-2019-05-05-at-113418jpeg.jpg" alt="Contact Us" width="350" height="209">
+                    <h3>Get in touch</h3></h3><p>We'd love to hear about your favourite places to visit in Nottinghamshire. If you are a local, visitor or business, get in touch and give us the lowdown.</p>
+                <p><strong><a href="Page3.html">Contact Us</a></strong></p><br></div>  
               </div>
         </body>
     </main>
