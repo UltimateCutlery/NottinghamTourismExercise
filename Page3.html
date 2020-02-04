@@ -1,24 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- The viewport meta tag instructs the browser to use the actual device width with a scaling factor of 1 -->
-    <script src="scripts/functions.js"></script>
-    <link rel="stylesheet" href="styles/main.css">
-
-<img src="https://www.visit-nottinghamshire.co.uk/images/logos/logo.png" alt="visit-nottinghamshire logo">
-<br>
-<br>
 
 <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- The viewport meta tag instructs the browser to use the actual device width with a scaling factor of 1 -->
 
+<script src="scripts/functions.js"></script>
+<link rel="stylesheet" href="styles/main.css">
+<img src="https://www.visit-nottinghamshire.co.uk/images/logos/logo.png" alt="visit-nottinghamshire logo">
+  
+<br>
+<br>
+  
+<button onclick="openHome()">Home</button>
+<button onclick="openP1()">Top 10 Attractions</button>
+<button onclick="openP2()">Map of Attractions</button>
+<button onclick="openP3()">Contact Us</button>
+      
+<script src="scripts/functions.js"></script>
+<link rel="stylesheet" href="tyles/main.css">
+
 <style>
 div {background-color:#9caf88;
-  width: 300px;
+  width: align-self auto;
   border: 5px solid black;
   padding: 50px;
   margin: 20px;
-  position: absolute;
-  right: 0;
+  float: right;
   color: white;}
 </style>
 
@@ -27,23 +34,46 @@ h1 {background-color:#9caf88;
   width: align-self auto;
   border: 5px solid black;
   padding: 10px;
+  margin: 20px;
   color: white;}
   </style>
 
+<style>
+h4 {background-color:#9caf88;
+  width: align-self auto;
+  border: 5px solid black;
+  padding: 50px;
+  margin: 20px;
+  float: left;
+  color: white;}
+</style>
+
 <script src="scripts/functions.js"></script>
 <link rel="stylesheet" href="main.css">
-    
-<button onclick="openHome()">Home</button>
-    
-<h1>Contact Us</h1>
-<h2>Talk to our friendly, dedicated team today, and we'll help you get the best out of our talent, expertise, research and facilities.</h2>
-<div><h2>WANT TO SPEAK TO US?</h2>
-<h3>Contact Us</h3>
-<p>Business and Employers <br>
-+44 (0)115 848 8899 <br>
-workingwithyou@ntu.ac.uk</p>
-</div>
 
 </head>
 
-</html>
+</body>
+
+<h1>Contact Us</h1>
+<h2>Talk to our friendly, dedicated team today, and we'll help you get the best out of our talent, expertise, research and facilities.</h2>
+
+<h4> NTU staff are ready to answer your questions or queries. Find the relevant contact for each department, speak with the events team or simply give us a call. Individual contact details are <br>
+  provided for each event listed within this section. All general enquiries, however, should be directed, by email, to the NTU events team. Should you wish to contact a department or member <br>
+  of staff, but do not know the relevant extension number, please call the University switchboard on: +44 (0)115 941 8418. Alternatively, our address is: <br><br>
+  
+  Nottingham Trent University <br>
+  Shakespeare Street <br>
+  Nottingham <br>
+  NG1 4FQ
+</h4>
+
+<div><h2>WANT TO SPEAK TO US?</h2>
+  <h3>Contact Us</h3>
+  <p>Business and Employers <br>
+  +44 (0)115 848 8899 <br>
+  workingwithyou@ntu.ac.uk</p>
+  </div>
+
+<img src="data:image/png;base64,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"
+alt="contactus"

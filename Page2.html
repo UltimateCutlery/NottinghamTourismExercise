@@ -1,9 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <img src="https://www.visit-nottinghamshire.co.uk/images/logos/logo.png" alt="visit-nottinghamshire logo">
-    <br>
-    <br>
+
+<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- The viewport meta tag instructs the browser to use the actual device width with a scaling factor of 1 -->
+
+<script src="scripts/functions.js"></script>
+<link rel="stylesheet" href="styles/main.css">
+<img src="https://www.visit-nottinghamshire.co.uk/images/logos/logo.png" alt="visit-nottinghamshire logo">
+
+<br>
+<br>
+
+<button onclick="openHome()">Home</button>
+<button onclick="openP1()">Top 10 Attractions</button>
+<button onclick="openP2()">Map of Attractions</button>
+<button onclick="openP3()">Contact Us</button>
+    
+<script src="scripts/functions.js"></script>
+<link rel="stylesheet" href="tyles/main.css">
+
 <style>
 h1 {background-color:#9caf88;
   width: align-self auto;
@@ -12,18 +27,10 @@ h1 {background-color:#9caf88;
   color: white;}
 </style>
 
-
-<meta name="viewport" content="width=device-width, initial-scale=1">     <!-- The viewport meta tag instructs the browser to use the actual device width with a scaling factor of 1 -->
- <script src="scripts/functions.js"></script>
-<link rel="stylesheet" href="main.css">
-
-
 <h1>Map of Attractions</h1>
 </head>
 <body>
 
-This is Page 2 (Map!)
-<button onclick="openHome()">Home</button>
 <iframe src="https://www.google.com/maps/d/embed?mid=1qSM2kurIC_ofYe3sKBX7F9td3JQgvLvG" width="640" height="480"></iframe>
 </body>
 </html>
