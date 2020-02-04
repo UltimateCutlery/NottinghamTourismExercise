@@ -27,25 +27,46 @@
     width: 300px;
     border: 5px solid black;
     padding: 50px;
-    margin: 20px;
-    position: absolute;
-    right: 0;
+    position: center;
+    margin-left: 20px;
     color: white;}
 
     h2 {color:black}
+
+    #grid { 
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 5vw;
+    }
+
   </style>
         </head>
           <body>
-
 <h1>Contact Us</h1>
-<h2>Talk to our friendly, dedicated team today, and we'll help you get the best out of our talent, expertise, research and facilities.</h2>
-<div id="contact-box"><h2>WANT TO SPEAK TO US?</h2>
-<h3>Contact Us</h3>
-<p>Business and Employers <br>
-+44 (0)115 848 8899 <br>
-workingwithyou@ntu.ac.uk</p>
-</div>
+  <h2>Talk to our friendly, dedicated team today, and we'll help you get the best out of our talent, expertise, research and facilities.</h2>
+<br>
+  <div id=grid>
+  <div id="contact-box">
+    <h2>WANT TO SPEAK TO US?</h2>
+    <h3>Call us on:</h3>
+  <p>+44 (0)115 848 8899</p>
+  </div>
+ 
+  
+  <div id="contact-box">
+    <h2>WANT TO MESSAGE US?</h2>
+    <h3>Email us at:</h3>
+  <p>workingwithyou@ntu.ac.uk</p>
+  </div>
 
+  <div id="contact-box">
+    <h2>WANT TO VISIT US?</h2>
+    <h3>Find us at:</h3>
+  <p>Newton Building NTU</p>
+  </div>
+</div>
+<br>
+<h2>We look forward to hearing from you!</h2>
 </body>
 <div class="footer">
   <p>Copyright Orang 2020</p>
